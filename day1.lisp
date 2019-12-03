@@ -1,4 +1,4 @@
-(defun part1 ()
+(defun day1 ()
   (with-open-file (stream "C:\\Users\\jadempse\\Documents\\Projects\\aoc19\\input-1.txt")
     (do ((line (read-line stream) (read-line stream nil 'eof))
 	 (mass 0))

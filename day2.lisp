@@ -1,4 +1,4 @@
-(defun part2 ()
+(defun day2 ()
   (labels ((fuel-eq (x)
 	     (- (floor (/ (parse-integer x) 3)) 2)))
     (with-open-file (stream "C:\\Users\\jadempse\\Documents\\Projects\\aoc19\\input-1.txt")
